@@ -40,7 +40,6 @@ public class ArrayClassTest {
 	@test
 	public void testCase2(){
 		int[] arr = {5, 9, 19, 54, 458, 894};
-		int expected_index = 1;
 		assertTrue(ArrayClass.search(arr, 9));
 	}
 
